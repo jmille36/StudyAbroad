@@ -6,13 +6,10 @@ from re import *
 program_di = data()
 
 def li_to_str(li):
-    st = 0
-    if li == []:
-        st = str(st)
-    else:
-        for ele in li:
-            st = str(ele) + ","
-    return st
+	st = ""
+	if li != []:
+		st = ', '.join(li)
+	return st
 
 
 def prg_descript(di):
@@ -328,8 +325,3 @@ class TransitPage(Frame):
 
 app = Project()
 app.mainloop()
-
-
-
-
-
