@@ -1,37 +1,3 @@
-#["Freshman", "Sophomore", "Junior", "Senior"]
-
-#["College of Agriculture and Natural Resources", "School of Architecture, Planning, and Preservation",
-#                       "College of Arts and Humanities", "College of Behavioral and Social Sciences",
-#                       "Robert H. Smith School of Business", "College of Computer, Mathematical and Natural Sciences",
-#                       "College of Education", "A. James Clark School of Engineering", "Philip Merrill College of Journalism",
-#                       "College of Information Studies", "School of Public Health", "School of Public Policy"]
-
-#["2.8", "2.9", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.9", "4.0"]
-
-#["None","Arabic", "French", "German", "Hindi", "Italian", "Japanese", "Korean", "Mandarin",
-#                        "Portuguese", "Russian", "Spanish", "Vietnamese"]
-
-
-
-#"Academic"     "Internship"
-
-#"Resident Credit"      "Transfer Credit"
-
-#["Africa - Central", "Africa - East", "Africa - North", "Africa - South", "Africa - West",
-#                        "America - Central", "America - North", "America - South", "Asia - Central", "Asia - East",
-#                        "Asia - South", "Asia - SouthEast","Asia - West", "Caribbean", "Europe - East",
-#                        "Europe - North", "Europe - South", "Europe - West", "Middle East", "Oceania"]
-
-#["$15000 - $20000", "$20000 - $25000", "$25000 - $30000", "$30000 - $35000", "$35000 - $40000",
-#                        "$40000 - $45000", "$45000 - $50000", "$50000 - $55000", "$55000 - $60000"]
-
-#["Apartment", "Campus", "Host"]
-
-#"Cultural"     "Leisure"   "Athletic"      "Vocational"    "Educational"   "Volunteer"
-
-#["Semester - Spring", "Semester - Summer", "Semester - Fall", "Semester - Winter", "Full Year"]
-
-
 def data():
     study_abroad_dict = {
         "Clark-in-Madrid(Spain) - Semester": {
@@ -162,4 +128,3 @@ def data():
         },
     }
     return study_abroad_dict
-
